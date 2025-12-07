@@ -1,0 +1,20 @@
+meta {
+  name: protected
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://127.0.0.1:8000/api/protected
+  body: none
+  auth: inherit
+}
+
+headers {
+  Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE3NjUxNDAxOTIsImV4cCI6MTc2NTE0Mzc5MiwibmJmIjoxNzY1MTQwMTkyLCJqdGkiOiIwWEx2ZmlkN2YwdzE1SDZJIiwic3ViIjoiMDE5YWZhOGQtYjg5ZS03MjU0LWE2MjAtODVhNDlmYzg1ODZhIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.wPP62PBDdZOnrLdrp7KmYWv3OjOZ8N7I7Lg46bZcPqQ
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

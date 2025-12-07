@@ -1,0 +1,20 @@
+meta {
+  name: expiry check
+  type: http
+  seq: 7
+}
+
+get {
+  url: http://127.0.0.1:8000/api/protected
+  body: none
+  auth: inherit
+}
+
+headers {
+  X-API-KEY: 6Js5afuD00oMMb2uUiYN75AxJ2lM2bMrOu85xeUT
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
